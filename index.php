@@ -24,7 +24,7 @@
    <div class = "in air2audio right">
    	<div class ="weather top">天气资源</div>
    	<div class = "audio bottom">音频播放
-   		<audio autoplay src="http://tsn.baidu.com/text2audio?tex=汤泉大傻逼&lan=zh&per=4&cuid=myBaidu_workSpace&ctp=1&tok=24.f1cb1b2c918de7213660e6c7c8a12350.2592000.1491922264.282335-8490138">
+   		<audio autoplay src="http://tsn.baidu.com/text2audio?tex=大傻逼&lan=zh&per=4&cuid=myBaidu_workSpace&ctp=1&tok=24.f1cb1b2c918de7213660e6c7c8a12350.2592000.1491922264.282335-8490138">
 			</audio>
 		</div>
    </div>

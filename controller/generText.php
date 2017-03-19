@@ -2,7 +2,7 @@
 //echo $_POST["name"]; 
 //echo $_POST["email"];
 
-require_once(__DIR__ . "/audio2text.php");
+require_once("/var/www/html/workspace/test/controller/audio2text.php");
 /*
 $myfile = fopen("text.txt", "r") or die("Unable to open file!");
 $text = fgets($myfile);
@@ -24,7 +24,7 @@ $array=array(
 
 echo $text;
 */
-system('sudo arecord -D "plughw:1" -f S16_LE -r 16000 -t wav -d 5 ../media/test.wav'); 
+system('sudo arecord -D "plughw:1" -f S16_LE -r 16000 -t wav -d 5 /var/www/html/workspace/test/media/test.wav >> /var/www/html/workspace/test/controller/generlog.txt 2>&1'); 
 //exec ('ls'); 
 //passthru ('ls -a'); 
 //echo `ls`; 
@@ -52,7 +52,7 @@ if ($pos === false) {
     $result = "1 my lord 我家主人，汪大少爷最帅";
 }
 
-$myfile = fopen("../media/anser.txt", "w") or die("Unable to open file!");
+$myfile = fopen("/var/www/html/workspace/test/media/anser.txt", "w") or die("Unable to open file!");
 fwrite($myfile,$result);
 fclose($myfile);
 

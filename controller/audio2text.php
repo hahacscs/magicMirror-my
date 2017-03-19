@@ -1,7 +1,7 @@
 <?php
 
 function audio2text(){
-	define('AUDIO_FILE', "../media/test.wav");
+	define('AUDIO_FILE', "/var/www/html/workspace/test/media/test.wav");
 	$url = "http://vop.baidu.com/server_api";
 	
 	//put your params here

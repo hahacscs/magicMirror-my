@@ -1,47 +1,37 @@
-Waiting ... 
- Done. counter:     0
+ work is begin
+0
+ work is begin
+0
+ work is begin
+1
+ Done. counter:     3
  work is done
-Waiting ... 
-Waiting ... 
- Done. counter:     0
- work is done
-Waiting ... 
-Waiting ... 
- Done. counter:     0
- work is done
-Waiting ... 
- Done. counter:     0
- work is done
-Waiting ... 
-Waiting ... 
- Done. counter:   329
- work is done
-Waiting ... 
- Done. counter: 97965
- work is done
-Waiting ... 
- Done. counter: 129094
- work is done
-Waiting ... 
- Done. counter: 189825
- work is done
-Waiting ... 
- Done. counter: 242016
- work is done
-Waiting ... 
-Waiting ... 
+ work is begin
+1
+ Done. counter:     4
+ work is begin
+0
  Done. counter:     1
+ work is begin
+0
+ work is begin
+0
+ work is begin
+0
+ work is begin
+0
+ work is begin
+0
+ work is begin
+0
+ work is begin
+1
+ Done. counter:     8
  work is done
-Waiting ... 
- Done. counter:  2324
+ work is begin
+1
+ Done. counter:     9
+ work is begin
+0
+ Done. counter:    10
  work is done
-Waiting ... 
- Done. counter: 32162
- work is done
-Waiting ... 
- Done. counter: 67242
- work is done
-Waiting ... 
- Done. counter: 95690
- work is done
-Waiting ... 
