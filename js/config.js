@@ -5,8 +5,8 @@ var config = {
     },
     weather: {
         params: {
-            cityid: "",
-            key: ""
+            city: "广州",
+            key: "04109eb09c9b4c559b72928311466038"
         }
     },
     tem_hum: {

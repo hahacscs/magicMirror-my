@@ -12,28 +12,47 @@
  </head> 
  <body id = "container"> 
   <div id = "first">
-   <div class = "in time left">时间</div>
-   <div class = "in camera mid">视频</div>
-   <div class = "in pm2tem right">
-   	<div class = "air top">空气质量</div>
-   	<div class = "tem bottom">温度</div>
-   </div>
+    <div class="top left">
+	   <div class="date small dimmed"></div>
+	   <div class="time"></div>
+	   <div class="calendar xxsmall"></div>
+	   <div class="camera">视频</div>
+	  </div> 
+	  <div class="top right">
+	   <div class="windsun small dimmed"></div>
+	   <div class="temp"></div>
+	   <div class="temhum medium"></div>
+	   <div class="forecast small dimmed"></div>
+	   <div class="suggestion small dimmed"></div>
+	   <div class="updatetime xsmall dimmed"></div>
+	  </div> 
   </div>
   <div id = "second">
-   <div class = "in txtGui left">文字交互</div>
-   <div class = "in air2audio right">
-   	<div class ="weather top">天气资源</div>
-   	<div class = "audio bottom">音频播放
+	   <div class="textGui">文字交互</div>
    		<audio autoplay src="http://tsn.baidu.com/text2audio?tex=大傻逼&lan=zh&per=4&cuid=myBaidu_workSpace&ctp=1&tok=24.f1cb1b2c918de7213660e6c7c8a12350.2592000.1491922264.282335-8490138">
 			</audio>
-		</div>
-   </div>
   </div>
   <div id = "bottom">
-   <div class = "news medium">news medium</div>
+		<div class = "bottom  center-hor">
+		 <div class = "news medium">news medium</div>
+		</div>
   </div>
  </body>  
 <script src = "js/jquery.js"></script> 
-<script src = "js/test.js"></script> 
+<script src="js/jquery.feedToJSON.js"></script> 
+<script src="js/ical_parser.js"></script> 
+<script src="js/moment-with-locales.min.js"></script> 
+<script src="js/paho/mqttws31.js"></script> 
+<script src="js/config.js"></script> 
+<script src="js/rrule.js"></script> 
+<script src="js/version/version.js" type="text/javascript"></script> 
+<script src="js/calendar/calendar.js" type="text/javascript"></script> 
+<script src="js/compliments/compliments.js" type="text/javascript"></script> 
+<script src="js/skycons.js" type="text/javascript"></script> 
+<script src="js/weather/weather.js" type="text/javascript"></script> 
+<script src="js/temp_hum/tem_hum.js" type="text/javascript"></script> 
+<script src="js/time/time.js" type="text/javascript"></script> 
+<script src="js/news/news.js" type="text/javascript"></script> 
+<script src = "js/test.js?nocache=<?php echo md5(microtime()) ?>"></script> 
 <script src = "js/main.js?nocache=<?php echo md5(microtime()) ?>"></script> 
 </html>
