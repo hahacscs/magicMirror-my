@@ -58,7 +58,7 @@ $(document).ready(function(){
 
 	//calendar.init();
 
-	//compliments.init();
+	compliments.init();
 
 	news.init();
 

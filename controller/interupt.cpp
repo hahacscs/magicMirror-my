@@ -103,16 +103,16 @@ int main (void)
 		
 		sleep(6.5);
     VideoCapture cap(0);
-    if (!cap.isOpened())//检测是否打开
+    if (!cap.isOpened())//妫�娴嬫槸鍚︽墦寮�
     {
         return -1;
     }
     bool stop = false;
-    namedWindow("当前视频",0);
-    cvMoveWindow("当前视频",0,0);
+    namedWindow("褰撳墠瑙嗛",0);
+    cvMoveWindow("褰撳墠瑙嗛",0,147);
 
 
-    cvResizeWindow("当前视频",300,300);
+    cvResizeWindow("褰撳墠瑙嗛",245,214);
     while (!stop)
     {
         cap >> frame;
@@ -122,7 +122,7 @@ int main (void)
         //GaussianBlur(edges, edges, Size(7, 7), 1.5, 1.5);
         //Canny(edges, edges, 0, 30, 3);
         flip(frame,image,0);
-        imshow("当前视频", image);
+        imshow("褰撳墠瑙嗛", image);
 
 		    if (myCounter != globalCounter){
 		    printf (" Done. counter: %5d\n", globalCounter) ;

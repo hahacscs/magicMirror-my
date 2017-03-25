@@ -1,17 +1,17 @@
 CC = g++
-# ©иж╢ппнд╪Ч
+# Е▐╞Ф┴╖Х║▄Ф√┤Д╩╤
 TARGET = interupt
-# Cнд╪Ч
+# CФ√┤Д╩╤
 SRCS = interupt.cpp
-# д©╠Йнд╪Ч
+# Г⌡╝Ф═┤Ф√┤Д╩╤
 OBJS = $(SRCS:.cpp=.o)
-# ©Бнд╪Ч
+# Е╨⌠Ф√┤Д╩╤
 DLIBS = -lwiringPi -lopencv_core -lopencv_imgproc -lopencv_highgui
-# а╢╫сн╙©иж╢ппнд╪Ч
+# И⌠╬Ф▌╔Д╦╨Е▐╞Ф┴╖Х║▄Ф√┤Д╩╤
 $(TARGET):$(OBJS)
 	$(CC) -o $@ $^ $(DLIBS)
 clean:
 	rm -rf $(TARGET) $(OBJS)
-# ╠ЮрК╧ФтР $@╢З╠Мд©╠Йнд╪Ч $< ╢З╠М╣зр╩╦Жрюю╣нд╪Ч  
+# Г╪√Х╞▒Х╖└Е┬≥ $@Д╩ёХ║╗Г⌡╝Ф═┤Ф√┤Д╩╤ $< Д╩ёХ║╗Г╛╛Д╦─Д╦╙Д╬²Х╣√Ф√┤Д╩╤  
 %.o:%.cpp
 	$(CC) -o $@ -c $<

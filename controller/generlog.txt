@@ -179,4 +179,16 @@ audio2text begin
 谁最帅，1 my lord 我家主人，汪大少爷最帅Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
 audio2text begin 
 {"corpus_no":"6399162260455243141","err_msg":"success.","err_no":0,"result":["最帅，"],"sn":"195072443301489921067"}
-最帅，1 my lord 我家主人，汪大少爷最帅
+最帅，1 my lord 我家主人，汪大少爷最帅Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6400895272048959690","err_msg":"success.","err_no":0,"result":["谁最帅，，"],"sn":"517126060551490324566"}
+谁最帅，，1 my lord 我家主人，汪大少爷最帅Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6400895422308129657","err_msg":"success.","err_no":0,"result":["谁最帅，，"],"sn":"928288446401490324601"}
+谁最帅，，1 my lord 我家主人，汪大少爷最帅Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6400895584762890053","err_msg":"success.","err_no":0,"result":["，考纲声音，"],"sn":"454203036081490324638"}
+，考纲声音，no find 没有找到 Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6400895697331455249","err_msg":"success.","err_no":0,"result":["谁最帅，"],"sn":"406269533131490324664"}
+谁最帅，1 my lord 我家主人，汪大少爷最帅

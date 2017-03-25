@@ -51,9 +51,9 @@ tem_hum.init = function () {
   temperature = localStorage.getItem('temperature');
   humidity    = localStorage.getItem('humidity');
   	this.updateTemHum();
-
+/*
 	this.intervalId = setInterval(function () {
 		this.updateTemHum();
-	}.bind(this), this.updateInterval)
+	}.bind(this), this.updateInterval)*/
 
 }

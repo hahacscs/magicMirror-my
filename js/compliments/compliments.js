@@ -1,5 +1,5 @@
 var compliments = {
-	complimentLocation: '.compliment',
+	complimentLocation: '.textGui',
 	currentCompliment: '',
 	complimentList: {
 		'morning': config.compliments.morning,
@@ -55,7 +55,7 @@ compliments.updateCompliment = function () {
 	var _randomIndex = Math.floor(Math.random() * _list.length);
 	compliments.currentCompliment = _list[_randomIndex];
 
-	$('.compliment').updateWithText(compliments.currentCompliment, compliments.fadeInterval);
+	$('.textGui').updateWithText(compliments.currentCompliment, compliments.fadeInterval);
 
 }
 
