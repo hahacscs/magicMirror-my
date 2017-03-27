@@ -40,5 +40,8 @@ var config = {
     },
     news: {
         feed: 'http://www.ftchinese.com/rss/news'
+    },
+    textGui:{
+    	params:{data:''}
     }
 }

@@ -15,8 +15,30 @@ var compliments = {
  * Changes the compliment visible on the screen
  */
 compliments.updateCompliment = function () {
-
-
+	var _data = '';
+	$.ajax({
+			type: 'GET',
+			url: "textGui.php",
+			//contentType:"application/x-www-form-urlencoded",
+			dataType: 'json',
+      async:false,
+			//data: config.textGui.params,
+			success: function (data) {
+				//console.log(data["code"]);
+				_data = data["code"];
+				if(data["code"] == "succ"){	
+					$('.textGui').updateWithText(data["msg"], compliments.fadeInterval);
+					//return 0;
+				}},
+			error: function () {
+				// if error occur
+			}
+	});
+	
+	//console.log(_data);
+	if(_data == "succ"){	
+		return 0;
+	}
 
 	var _list = [];
 
