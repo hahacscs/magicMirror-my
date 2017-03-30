@@ -20,17 +20,17 @@ $names2 = __DIR__."/img/ss_2.jpg";
 //$result = $api->face_detect("files",$names2,null,$return_attributes = "age,gender,smiling,facequality");
 //var_dump($result);
 
-//$flags = array('face1' => 'files', 'face2' => 'files');
-//$result = $api->face_compare($flags, $names1, $names2);
-//var_dump($result);
+$flags = array('face1' => 'files', 'face2' => 'files');
+$result = $api->face_compare($flags, $names1, $names2);
+var_dump($result);
 //$api->faceset_create('ss','ss');
 //$api->faceset_addface('id','ss',$result['faces'][0]['face_token']);
 //var_dump($result);
 
 
-$flags = array('face1' => 'urls', 'faceset2' => 'id');
-$result = $api->face_search($flags, $urls1, 'ss');
-var_dump($result);
+//$flags = array('face1' => 'urls', 'faceset2' => 'id');
+//$result = $api->face_search($flags, $urls1, 'ss');
+//var_dump($result);
 
 //$result = $api->faceset_removeface('id','ss','5cfdbe7661610feeb3ebab4a09ad4481');
 //var_dump($result);
