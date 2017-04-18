@@ -191,4 +191,780 @@ audio2text begin
 ，考纲声音，no find 没有找到 Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
 audio2text begin 
 {"corpus_no":"6400895697331455249","err_msg":"success.","err_no":0,"result":["谁最帅，"],"sn":"406269533131490324664"}
-谁最帅，1 my lord 我家主人，汪大少爷最帅
+谁最帅，1 my lord 我家主人，汪大少爷最帅Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403197026782368746","err_msg":"success.","err_no":0,"result":["我是不是最帅的人，"],"sn":"207728625011490860484"}
+我是不是最帅的人，array(4) {
+  ["api_key"]=>
+  string(32) "tW42h6YN-90aTObg4spBBZ7JdgY94sPH"
+  ["api_secret"]=>
+  string(32) "3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA"
+  ["image_file1"]=>
+  object(CURLFile)#2 (3) {
+    ["name"]=>
+    string(54) "/var/www/html/workspace/test/controller/currentImg.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+  ["image_file2"]=>
+  object(CURLFile)#3 (3) {
+    ["name"]=>
+    string(62) "/var/www/html/workspace/test/controller/faceClass/img/wy_1.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+}
+postREQUEST: https://api-cn.faceplusplus.com/facepp/v3/compare?api_key=tW42h6YN-90aTObg4spBBZ7JdgY94sPH&api_secret=3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA&image_file1%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FcurrentImg.jpg&image_file1%5Bmime%5D=&image_file1%5Bpostname%5D=&image_file2%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FfaceClass%2Fimg%2Fwy_1.jpg&image_file2%5Bmime%5D=&image_file2%5Bpostname%5D=
+postRETURN: {"faces1": [{"face_rectangle": {"width": 428, "top": 139, "left": 38, "height": 428}, "face_token": "7c39e5d9f128681fb37a2b3d1ff35a54"}], "faces2": [{"face_rectangle": {"width": 332, "top": 680, "left": 166, "height": 332}, "face_token": "1c198bc45af2b4c9efc1e308a553b33c"}], "time_used": 471, "thresholds": {"1e-3": 65.3, "1e-5": 76.5, "1e-4": 71.8}, "confidence": 82.934, "image_id2": "kaP3w0z6z8phLPxkDQdyXg==", "image_id1": "p8Lqkoop130e3nVL9cEKJQ==", "request_id": "1490860487,fd0b57fc-a68e-49a1-9d72-ed4da8334db4"}
+1 是的，您就是世界上最帅的人，我的主人！Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403197267117490406","err_msg":"success.","err_no":0,"result":["我是不是最帅的人，"],"sn":"207471754581490860541"}
+我是不是最帅的人，array(4) {
+  ["api_key"]=>
+  string(32) "tW42h6YN-90aTObg4spBBZ7JdgY94sPH"
+  ["api_secret"]=>
+  string(32) "3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA"
+  ["image_file1"]=>
+  object(CURLFile)#2 (3) {
+    ["name"]=>
+    string(54) "/var/www/html/workspace/test/controller/currentImg.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+  ["image_file2"]=>
+  object(CURLFile)#3 (3) {
+    ["name"]=>
+    string(62) "/var/www/html/workspace/test/controller/faceClass/img/wy_1.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+}
+postREQUEST: https://api-cn.faceplusplus.com/facepp/v3/compare?api_key=tW42h6YN-90aTObg4spBBZ7JdgY94sPH&api_secret=3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA&image_file1%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FcurrentImg.jpg&image_file1%5Bmime%5D=&image_file1%5Bpostname%5D=&image_file2%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FfaceClass%2Fimg%2Fwy_1.jpg&image_file2%5Bmime%5D=&image_file2%5Bpostname%5D=
+postRETURN: {"faces1": [{"face_rectangle": {"width": 408, "top": 122, "left": 67, "height": 408}, "face_token": "1ca123aef22a4094f69de8abf54938e4"}], "faces2": [{"face_rectangle": {"width": 332, "top": 680, "left": 166, "height": 332}, "face_token": "b8f369c955257ab20c55a5a8fefce6c4"}], "time_used": 448, "thresholds": {"1e-3": 65.3, "1e-5": 76.5, "1e-4": 71.8}, "confidence": 89.384, "image_id2": "kaP3w0z6z8phLPxkDQdyXg==", "image_id1": "8Nc/U5EYq/Q7ofouN05lFA==", "request_id": "1490860542,6a77b765-1544-42f2-aeeb-a9b4655e6660"}
+1 是的，您就是世界上最帅的人，我的主人！Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403197413233256408","err_msg":"success.","err_no":0,"result":["我是不是最帅的人，"],"sn":"452243715561490860575"}
+我是不是最帅的人，array(4) {
+  ["api_key"]=>
+  string(32) "tW42h6YN-90aTObg4spBBZ7JdgY94sPH"
+  ["api_secret"]=>
+  string(32) "3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA"
+  ["image_file1"]=>
+  object(CURLFile)#2 (3) {
+    ["name"]=>
+    string(54) "/var/www/html/workspace/test/controller/currentImg.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+  ["image_file2"]=>
+  object(CURLFile)#3 (3) {
+    ["name"]=>
+    string(62) "/var/www/html/workspace/test/controller/faceClass/img/wy_1.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+}
+postREQUEST: https://api-cn.faceplusplus.com/facepp/v3/compare?api_key=tW42h6YN-90aTObg4spBBZ7JdgY94sPH&api_secret=3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA&image_file1%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FcurrentImg.jpg&image_file1%5Bmime%5D=&image_file1%5Bpostname%5D=&image_file2%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FfaceClass%2Fimg%2Fwy_1.jpg&image_file2%5Bmime%5D=&image_file2%5Bpostname%5D=
+postRETURN: {"image_id2": "kaP3w0z6z8phLPxkDQdyXg==", "faces1": [], "faces2": [{"face_rectangle": {"width": 332, "top": 680, "left": 166, "height": 332}, "face_token": "c7e01bce4a9cae3be34403c97f914953"}], "image_id1": "TSv8TaVzEi5bpuKCGEPS+Q==", "request_id": "1490860577,42f1e489-95b1-4069-8a27-57a1ef2fcde8", "time_used": 232}
+PHP Notice:  Undefined index: confidence in /var/www/html/workspace/test/controller/generText.php on line 60
+PHP Notice:  Undefined index: thresholds in /var/www/html/workspace/test/controller/generText.php on line 60
+1 是的，您就是世界上最帅的人，我的主人！Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403198198406203759","err_msg":"success.","err_no":0,"result":["我是不是最帅的人，"],"sn":"783317341291490860757"}
+我是不是最帅的人，array(4) {
+  ["api_key"]=>
+  string(32) "tW42h6YN-90aTObg4spBBZ7JdgY94sPH"
+  ["api_secret"]=>
+  string(32) "3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA"
+  ["image_file1"]=>
+  object(CURLFile)#2 (3) {
+    ["name"]=>
+    string(54) "/var/www/html/workspace/test/controller/currentImg.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+  ["image_file2"]=>
+  object(CURLFile)#3 (3) {
+    ["name"]=>
+    string(62) "/var/www/html/workspace/test/controller/faceClass/img/wy_1.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+}
+postREQUEST: https://api-cn.faceplusplus.com/facepp/v3/compare?api_key=tW42h6YN-90aTObg4spBBZ7JdgY94sPH&api_secret=3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA&image_file1%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FcurrentImg.jpg&image_file1%5Bmime%5D=&image_file1%5Bpostname%5D=&image_file2%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FfaceClass%2Fimg%2Fwy_1.jpg&image_file2%5Bmime%5D=&image_file2%5Bpostname%5D=
+postRETURN: {"image_id2": "kaP3w0z6z8phLPxkDQdyXg==", "faces1": [], "faces2": [{"face_rectangle": {"width": 332, "top": 680, "left": 166, "height": 332}, "face_token": "41210da2f5e3f6ca46b187b1bc679b20"}], "image_id1": "zG3UPnMl1diqR45yDhF7lg==", "request_id": "1490860759,32f0b77e-9621-4668-9e48-339ba6b15e2a", "time_used": 229}
+PHP Notice:  Undefined index: confidence in /var/www/html/workspace/test/controller/generText.php on line 60
+PHP Notice:  Undefined index: thresholds in /var/www/html/workspace/test/controller/generText.php on line 60
+1 你不是我家主人，我不认识你，你是谁呀？Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403198310895073625","err_msg":"success.","err_no":0,"result":["请问谁最帅，"],"sn":"525727920301490860784"}
+请问谁最帅，1 my lord. 我家主人，汪大少爷最帅Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403198717981222448","err_msg":"success.","err_no":0,"result":["你好，我是不是最帅的了，"],"sn":"79354670611490860878"}
+你好，我是不是最帅的了，array(4) {
+  ["api_key"]=>
+  string(32) "tW42h6YN-90aTObg4spBBZ7JdgY94sPH"
+  ["api_secret"]=>
+  string(32) "3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA"
+  ["image_file1"]=>
+  object(CURLFile)#2 (3) {
+    ["name"]=>
+    string(54) "/var/www/html/workspace/test/controller/currentImg.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+  ["image_file2"]=>
+  object(CURLFile)#3 (3) {
+    ["name"]=>
+    string(62) "/var/www/html/workspace/test/controller/faceClass/img/wy_1.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+}
+postREQUEST: https://api-cn.faceplusplus.com/facepp/v3/compare?api_key=tW42h6YN-90aTObg4spBBZ7JdgY94sPH&api_secret=3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA&image_file1%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FcurrentImg.jpg&image_file1%5Bmime%5D=&image_file1%5Bpostname%5D=&image_file2%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FfaceClass%2Fimg%2Fwy_1.jpg&image_file2%5Bmime%5D=&image_file2%5Bpostname%5D=
+postRETURN: {"faces1": [{"face_rectangle": {"width": 440, "top": 51, "left": 20, "height": 440}, "face_token": "09d42243aacf0eb0d1c2c28b68d4926a"}], "faces2": [{"face_rectangle": {"width": 332, "top": 680, "left": 166, "height": 332}, "face_token": "dcb53ca4120ee0a36108473e4f447a4f"}], "time_used": 1114, "thresholds": {"1e-3": 65.3, "1e-5": 76.5, "1e-4": 71.8}, "confidence": 86.854, "image_id2": "kaP3w0z6z8phLPxkDQdyXg==", "image_id1": "mth1HwgNx/lo/8k886gy0A==", "request_id": "1490860880,e6a1b5f8-58a2-4c2d-9b72-30f2469fc881"}
+1 是的，您就是世界上最帅的人，我的主人！Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403687499174334568","err_msg":"success.","err_no":0,"result":["谁最帅，"],"sn":"307235326481490974682"}
+谁最帅，1 my lord. 我家主人，汪大少爷最帅Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403687984687667425","err_msg":"success.","err_no":0,"result":["我是不是最帅的人，"],"sn":"387979156201490974794"}
+我是不是最帅的人，array(4) {
+  ["api_key"]=>
+  string(32) "tW42h6YN-90aTObg4spBBZ7JdgY94sPH"
+  ["api_secret"]=>
+  string(32) "3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA"
+  ["image_file1"]=>
+  object(CURLFile)#2 (3) {
+    ["name"]=>
+    string(54) "/var/www/html/workspace/test/controller/currentImg.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+  ["image_file2"]=>
+  object(CURLFile)#3 (3) {
+    ["name"]=>
+    string(62) "/var/www/html/workspace/test/controller/faceClass/img/wy_1.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+}
+postREQUEST: https://api-cn.faceplusplus.com/facepp/v3/compare?api_key=tW42h6YN-90aTObg4spBBZ7JdgY94sPH&api_secret=3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA&image_file1%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FcurrentImg.jpg&image_file1%5Bmime%5D=&image_file1%5Bpostname%5D=&image_file2%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FfaceClass%2Fimg%2Fwy_1.jpg&image_file2%5Bmime%5D=&image_file2%5Bpostname%5D=
+postRETURN: {"faces1": [{"face_rectangle": {"width": 357, "top": 132, "left": 90, "height": 357}, "face_token": "5b5cd7eb4ced644b7ebf2799de7ef5e0"}], "faces2": [{"face_rectangle": {"width": 332, "top": 680, "left": 166, "height": 332}, "face_token": "7b070dc713c89c2c0d483239b275fdd6"}], "time_used": 492, "thresholds": {"1e-3": 65.3, "1e-5": 76.5, "1e-4": 71.8}, "confidence": 87.455, "image_id2": "kaP3w0z6z8phLPxkDQdyXg==", "image_id1": "qRXcu1jaMobU7W+2cDiAHA==", "request_id": "1490974797,cd6a2000-7585-4c41-8151-bb292b0596d2"}
+1 是的，您就是世界上最帅的人，我的主人！Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403969101986134436","err_msg":"success.","err_no":0,"result":["谁最帅，"],"sn":"7794160591491040247"}
+谁最帅，1 my lord. 我家主人，汪大少爷最帅Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403969188749294897","err_msg":"success.","err_no":0,"result":["谁最帅，"],"sn":"672704969601491040268"}
+谁最帅，1 my lord. 我家主人，汪大少爷最帅Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403969223079449180","err_msg":"success.","err_no":0,"result":["yl，"],"sn":"738686453051491040276"}
+yl，1 你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403969330410475507","err_msg":"success.","err_no":0,"result":["我是不是最帅的，"],"sn":"863147022901491040301"}
+我是不是最帅的，array(4) {
+  ["api_key"]=>
+  string(32) "tW42h6YN-90aTObg4spBBZ7JdgY94sPH"
+  ["api_secret"]=>
+  string(32) "3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA"
+  ["image_file1"]=>
+  object(CURLFile)#2 (3) {
+    ["name"]=>
+    string(54) "/var/www/html/workspace/test/controller/currentImg.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+  ["image_file2"]=>
+  object(CURLFile)#3 (3) {
+    ["name"]=>
+    string(62) "/var/www/html/workspace/test/controller/faceClass/img/wy_1.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+}
+postREQUEST: https://api-cn.faceplusplus.com/facepp/v3/compare?api_key=tW42h6YN-90aTObg4spBBZ7JdgY94sPH&api_secret=3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA&image_file1%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FcurrentImg.jpg&image_file1%5Bmime%5D=&image_file1%5Bpostname%5D=&image_file2%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FfaceClass%2Fimg%2Fwy_1.jpg&image_file2%5Bmime%5D=&image_file2%5Bpostname%5D=
+postRETURN: {"faces1": [{"face_rectangle": {"width": 392, "top": 99, "left": 131, "height": 392}, "face_token": "b0f0c5dc090a8c0a29adcb5f9d0ecf48"}], "faces2": [{"face_rectangle": {"width": 332, "top": 680, "left": 166, "height": 332}, "face_token": "62ae3dcf6ac26e61c62c1a2b34bb2e98"}], "time_used": 488, "thresholds": {"1e-3": 65.3, "1e-5": 76.5, "1e-4": 71.8}, "confidence": 84.091, "image_id2": "kaP3w0z6z8phLPxkDQdyXg==", "image_id1": "Fjz2cchnXHg4oY0+TBXLgQ==", "request_id": "1491040304,f0ca3ac7-f867-44da-bc68-36eaea95b10f"}
+1 是的，您就是世界上最帅的人，我的主人！Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403969376813084794","err_msg":"success.","err_no":0,"result":["，的，"],"sn":"64286370131491040311"}
+，的，1 你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+Could not resolve host: openapi.baidu.comCould not resolve host: vop.baidu.comaudio2text errorRecording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403974513655093148","err_msg":"success.","err_no":0,"result":["谁最帅，"],"sn":"11294450461491041507"}
+谁最帅，1 my lord. 我家主人，汪大少爷最帅Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403974599665909004","err_msg":"success.","err_no":0,"result":["最帅的是谁呀，"],"sn":"554335164081491041527"}
+最帅的是谁呀，1 my lord. 我家主人，汪大少爷最帅Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403974763686887721","err_msg":"success.","err_no":0,"result":["我是不是最帅的，"],"sn":"107184690981491041566"}
+我是不是最帅的，array(4) {
+  ["api_key"]=>
+  string(32) "tW42h6YN-90aTObg4spBBZ7JdgY94sPH"
+  ["api_secret"]=>
+  string(32) "3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA"
+  ["image_file1"]=>
+  object(CURLFile)#2 (3) {
+    ["name"]=>
+    string(54) "/var/www/html/workspace/test/controller/currentImg.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+  ["image_file2"]=>
+  object(CURLFile)#3 (3) {
+    ["name"]=>
+    string(62) "/var/www/html/workspace/test/controller/faceClass/img/wy_1.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+}
+postREQUEST: https://api-cn.faceplusplus.com/facepp/v3/compare?api_key=tW42h6YN-90aTObg4spBBZ7JdgY94sPH&api_secret=3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA&image_file1%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FcurrentImg.jpg&image_file1%5Bmime%5D=&image_file1%5Bpostname%5D=&image_file2%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FfaceClass%2Fimg%2Fwy_1.jpg&image_file2%5Bmime%5D=&image_file2%5Bpostname%5D=
+postRETURN: {"faces1": [{"face_rectangle": {"width": 352, "top": 85, "left": 210, "height": 352}, "face_token": "2176750802a5289a6d4b2127c46ce638"}], "faces2": [{"face_rectangle": {"width": 332, "top": 680, "left": 166, "height": 332}, "face_token": "986f696f2d9af9f17e22bbd3f78d1e59"}], "time_used": 542, "thresholds": {"1e-3": 65.3, "1e-5": 76.5, "1e-4": 71.8}, "confidence": 87.629, "image_id2": "kaP3w0z6z8phLPxkDQdyXg==", "image_id1": "zt+rZGYFqzrrDaXgWhAJtA==", "request_id": "1491041568,44030cd7-7152-4615-830e-99e47d9a028b"}
+1 是的，您就是世界上最帅的人，我的主人！Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403975415610727768","err_msg":"success.","err_no":0,"result":["谁最帅，"],"sn":"527852284491491041717"}
+谁最帅，1 my lord. 我家主人，汪大少爷最帅Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403975510024023043","err_msg":"success.","err_no":0,"result":["我是不是最帅的人，"],"sn":"527429851951491041738"}
+我是不是最帅的人，array(4) {
+  ["api_key"]=>
+  string(32) "tW42h6YN-90aTObg4spBBZ7JdgY94sPH"
+  ["api_secret"]=>
+  string(32) "3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA"
+  ["image_file1"]=>
+  object(CURLFile)#2 (3) {
+    ["name"]=>
+    string(54) "/var/www/html/workspace/test/controller/currentImg.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+  ["image_file2"]=>
+  object(CURLFile)#3 (3) {
+    ["name"]=>
+    string(62) "/var/www/html/workspace/test/controller/faceClass/img/wy_1.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+}
+postREQUEST: https://api-cn.faceplusplus.com/facepp/v3/compare?api_key=tW42h6YN-90aTObg4spBBZ7JdgY94sPH&api_secret=3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA&image_file1%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FcurrentImg.jpg&image_file1%5Bmime%5D=&image_file1%5Bpostname%5D=&image_file2%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FfaceClass%2Fimg%2Fwy_1.jpg&image_file2%5Bmime%5D=&image_file2%5Bpostname%5D=
+postRETURN: {"error_message":"CONCURRENCY_LIMIT_EXCEEDED"}
+
+1 看不清你的人脸，能让我看清楚么？Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403975596928607491","err_msg":"success.","err_no":0,"result":["我是不是最帅的，"],"sn":"100412863261491041760"}
+我是不是最帅的，array(4) {
+  ["api_key"]=>
+  string(32) "tW42h6YN-90aTObg4spBBZ7JdgY94sPH"
+  ["api_secret"]=>
+  string(32) "3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA"
+  ["image_file1"]=>
+  object(CURLFile)#2 (3) {
+    ["name"]=>
+    string(54) "/var/www/html/workspace/test/controller/currentImg.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+  ["image_file2"]=>
+  object(CURLFile)#3 (3) {
+    ["name"]=>
+    string(62) "/var/www/html/workspace/test/controller/faceClass/img/wy_1.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+}
+postREQUEST: https://api-cn.faceplusplus.com/facepp/v3/compare?api_key=tW42h6YN-90aTObg4spBBZ7JdgY94sPH&api_secret=3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA&image_file1%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FcurrentImg.jpg&image_file1%5Bmime%5D=&image_file1%5Bpostname%5D=&image_file2%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FfaceClass%2Fimg%2Fwy_1.jpg&image_file2%5Bmime%5D=&image_file2%5Bpostname%5D=
+postRETURN: {"error_message":"CONCURRENCY_LIMIT_EXCEEDED"}
+
+1 看不清你的人脸，能让我看清楚么？Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403975682904514005","err_msg":"success.","err_no":0,"result":["我是不是最帅的，"],"sn":"586285744151491041780"}
+我是不是最帅的，array(4) {
+  ["api_key"]=>
+  string(32) "tW42h6YN-90aTObg4spBBZ7JdgY94sPH"
+  ["api_secret"]=>
+  string(32) "3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA"
+  ["image_file1"]=>
+  object(CURLFile)#2 (3) {
+    ["name"]=>
+    string(54) "/var/www/html/workspace/test/controller/currentImg.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+  ["image_file2"]=>
+  object(CURLFile)#3 (3) {
+    ["name"]=>
+    string(62) "/var/www/html/workspace/test/controller/faceClass/img/wy_1.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+}
+postREQUEST: https://api-cn.faceplusplus.com/facepp/v3/compare?api_key=tW42h6YN-90aTObg4spBBZ7JdgY94sPH&api_secret=3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA&image_file1%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FcurrentImg.jpg&image_file1%5Bmime%5D=&image_file1%5Bpostname%5D=&image_file2%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FfaceClass%2Fimg%2Fwy_1.jpg&image_file2%5Bmime%5D=&image_file2%5Bpostname%5D=
+postRETURN: {"error_message":"CONCURRENCY_LIMIT_EXCEEDED"}
+
+1 看不清你的人脸，能让我看清楚么？Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403975810904158726","err_msg":"success.","err_no":0,"result":["我是不是最帅的人，"],"sn":"44463361201491041809"}
+我是不是最帅的人，array(4) {
+  ["api_key"]=>
+  string(32) "tW42h6YN-90aTObg4spBBZ7JdgY94sPH"
+  ["api_secret"]=>
+  string(32) "3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA"
+  ["image_file1"]=>
+  object(CURLFile)#2 (3) {
+    ["name"]=>
+    string(54) "/var/www/html/workspace/test/controller/currentImg.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+  ["image_file2"]=>
+  object(CURLFile)#3 (3) {
+    ["name"]=>
+    string(62) "/var/www/html/workspace/test/controller/faceClass/img/wy_1.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+}
+postREQUEST: https://api-cn.faceplusplus.com/facepp/v3/compare?api_key=tW42h6YN-90aTObg4spBBZ7JdgY94sPH&api_secret=3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA&image_file1%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FcurrentImg.jpg&image_file1%5Bmime%5D=&image_file1%5Bpostname%5D=&image_file2%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FfaceClass%2Fimg%2Fwy_1.jpg&image_file2%5Bmime%5D=&image_file2%5Bpostname%5D=
+postRETURN: {"faces1": [{"face_rectangle": {"width": 338, "top": 146, "left": 246, "height": 338}, "face_token": "7ee5dcfe1f259ad68774390b844bcb32"}], "faces2": [{"face_rectangle": {"width": 332, "top": 680, "left": 166, "height": 332}, "face_token": "ff4a189feb3019a79253b3acc03e73b3"}], "time_used": 508, "thresholds": {"1e-3": 65.3, "1e-5": 76.5, "1e-4": 71.8}, "confidence": 83.824, "image_id2": "kaP3w0z6z8phLPxkDQdyXg==", "image_id1": "H1K9G9KzReACVRtUHCMrnQ==", "request_id": "1491041811,8b1ceced-0479-477f-9300-bd2ef1bbf1af"}
+1 是的，您就是世界上最帅的人，我的主人！Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403990028002797936","err_msg":"success.","err_no":0,"result":["，"],"sn":"516635226091491045120"}
+，1 你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403990161239788811","err_msg":"success.","err_no":0,"result":["谁的，"],"sn":"878524600811491045151"}
+谁的，1 你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403990268526521630","err_msg":"success.","err_no":0,"result":["谁是最帅的，"],"sn":"843422924031491045176"}
+谁是最帅的，1 my lord. 我家主人，汪大少爷最帅Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403990430184189295","err_msg":"success.","err_no":0,"result":["我是不是做错了，"],"sn":"2242355351491045213"}
+我是不是做错了，1 你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403990534103186996","err_msg":"success.","err_no":0,"result":["我是最帅的，"],"sn":"28458578071491045237"}
+我是最帅的，1 my lord. 我家主人，汪大少爷最帅Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403990581944056068","err_msg":"success.","err_no":0,"result":["我，"],"sn":"561953943811491045249"}
+我，1 你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403990616398368931","err_msg":"success.","err_no":0,"result":["对了，这，"],"sn":"394426377071491045257"}
+对了，这，1 你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403990714449927347","err_msg":"success.","err_no":0,"result":["我是不是最帅的，"],"sn":"489209119561491045278"}
+我是不是最帅的，array(4) {
+  ["api_key"]=>
+  string(32) "tW42h6YN-90aTObg4spBBZ7JdgY94sPH"
+  ["api_secret"]=>
+  string(32) "3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA"
+  ["image_file1"]=>
+  object(CURLFile)#2 (3) {
+    ["name"]=>
+    string(54) "/var/www/html/workspace/test/controller/currentImg.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+  ["image_file2"]=>
+  object(CURLFile)#3 (3) {
+    ["name"]=>
+    string(62) "/var/www/html/workspace/test/controller/faceClass/img/wy_1.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+}
+postREQUEST: https://api-cn.faceplusplus.com/facepp/v3/compare?api_key=tW42h6YN-90aTObg4spBBZ7JdgY94sPH&api_secret=3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA&image_file1%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FcurrentImg.jpg&image_file1%5Bmime%5D=&image_file1%5Bpostname%5D=&image_file2%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FfaceClass%2Fimg%2Fwy_1.jpg&image_file2%5Bmime%5D=&image_file2%5Bpostname%5D=
+postRETURN: {"image_id2": "kaP3w0z6z8phLPxkDQdyXg==", "faces1": [], "faces2": [{"face_rectangle": {"width": 332, "top": 680, "left": 166, "height": 332}, "face_token": "62803871daacb5516ffde7433441726d"}], "image_id1": "3nOWGR59ZiaG3JzrcR4vkQ==", "request_id": "1491045281,fbd56bc2-37c7-415e-824c-e5e66cb55866", "time_used": 512}
+PHP Notice:  Undefined index: confidence in /var/www/html/workspace/test/controller/generText.php on line 60
+PHP Notice:  Undefined index: thresholds in /var/www/html/workspace/test/controller/generText.php on line 60
+1 你不是我家主人，我不认识你，你是谁呀？Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6403990825956396971","err_msg":"success.","err_no":0,"result":["我是不是最帅的，，"],"sn":"966766063391491045305"}
+我是不是最帅的，，array(4) {
+  ["api_key"]=>
+  string(32) "tW42h6YN-90aTObg4spBBZ7JdgY94sPH"
+  ["api_secret"]=>
+  string(32) "3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA"
+  ["image_file1"]=>
+  object(CURLFile)#2 (3) {
+    ["name"]=>
+    string(54) "/var/www/html/workspace/test/controller/currentImg.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+  ["image_file2"]=>
+  object(CURLFile)#3 (3) {
+    ["name"]=>
+    string(62) "/var/www/html/workspace/test/controller/faceClass/img/wy_1.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+}
+postREQUEST: https://api-cn.faceplusplus.com/facepp/v3/compare?api_key=tW42h6YN-90aTObg4spBBZ7JdgY94sPH&api_secret=3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA&image_file1%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FcurrentImg.jpg&image_file1%5Bmime%5D=&image_file1%5Bpostname%5D=&image_file2%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FfaceClass%2Fimg%2Fwy_1.jpg&image_file2%5Bmime%5D=&image_file2%5Bpostname%5D=
+postRETURN: {"faces1": [{"face_rectangle": {"width": 348, "top": 174, "left": 91, "height": 348}, "face_token": "d71affad6518d206a107be675e1c0d75"}], "faces2": [{"face_rectangle": {"width": 332, "top": 680, "left": 166, "height": 332}, "face_token": "39ed936f4599bab9dfc7bfcd3623c090"}], "time_used": 460, "thresholds": {"1e-3": 65.3, "1e-5": 76.5, "1e-4": 71.8}, "confidence": 85.177, "image_id2": "kaP3w0z6z8phLPxkDQdyXg==", "image_id1": "alhlIbsfWAIYEk9bDrKMmA==", "request_id": "1491045307,f3949153-0b12-49e1-98e0-71567f8f213c"}
+1 是的，您就是世界上最帅的人，我的主人！Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6404057072480589748","err_msg":"success.","err_no":0,"result":["猪，，，，"],"sn":"736512715331491060730"}
+猪，，，，1 你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6404057106662006279","err_msg":"success.","err_no":0,"result":["好，"],"sn":"821008685931491060737"}
+好，1 你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6404057184048881651","err_msg":"success.","err_no":0,"result":["反正，"],"sn":"472948149521491060756"}
+反正，1 你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6404057270184179165","err_msg":"success.","err_no":0,"result":["随便，"],"sn":"805552009751491060776"}
+随便，1 你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6404057351618350905","err_msg":"success.","err_no":0,"result":["谁最帅最帅最帅，"],"sn":"425757508921491060795"}
+谁最帅最帅最帅，1 my lord. 我家主人，汪大少爷最帅Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6404057599912082158","err_msg":"success.","err_no":0,"result":["，我是不是最帅的，"],"sn":"3433042941491060852"}
+，我是不是最帅的，array(4) {
+  ["api_key"]=>
+  string(32) "tW42h6YN-90aTObg4spBBZ7JdgY94sPH"
+  ["api_secret"]=>
+  string(32) "3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA"
+  ["image_file1"]=>
+  object(CURLFile)#2 (3) {
+    ["name"]=>
+    string(54) "/var/www/html/workspace/test/controller/currentImg.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+  ["image_file2"]=>
+  object(CURLFile)#3 (3) {
+    ["name"]=>
+    string(62) "/var/www/html/workspace/test/controller/faceClass/img/wy_1.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+}
+postREQUEST: https://api-cn.faceplusplus.com/facepp/v3/compare?api_key=tW42h6YN-90aTObg4spBBZ7JdgY94sPH&api_secret=3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA&image_file1%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FcurrentImg.jpg&image_file1%5Bmime%5D=&image_file1%5Bpostname%5D=&image_file2%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FfaceClass%2Fimg%2Fwy_1.jpg&image_file2%5Bmime%5D=&image_file2%5Bpostname%5D=
+postRETURN: {"faces1": [{"face_rectangle": {"width": 313, "top": 166, "left": 197, "height": 313}, "face_token": "434bd1383afcf3290d59426470e51f17"}], "faces2": [{"face_rectangle": {"width": 332, "top": 680, "left": 166, "height": 332}, "face_token": "e6736970ae73ac2d331bd90b7dec0804"}], "time_used": 472, "thresholds": {"1e-3": 65.3, "1e-5": 76.5, "1e-4": 71.8}, "confidence": 89.054, "image_id2": "kaP3w0z6z8phLPxkDQdyXg==", "image_id1": "hMyWtHEiAnZ3/kNQnz/qZw==", "request_id": "1491060854,e3e57432-271f-456e-9328-0cce81173c98"}
+1 是的，您就是世界上最帅的人，我的主人！Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6404058906515714134","err_msg":"success.","err_no":0,"result":["看，呵呵，"],"sn":"399395485691491061157"}
+看，呵呵，1 你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6404058996716607045","err_msg":"success.","err_no":0,"result":["是谁，最帅的，"],"sn":"788889545861491061177"}
+是谁，最帅的，1 my lord. 我家主人，汪大少爷最帅Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6405709174695039845","err_msg":"success.","err_no":0,"result":["最帅，"],"sn":"553232878491491445390"}
+最帅，1 my lord. 我家主人，汪大少爷最帅Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6405709260446378574","err_msg":"success.","err_no":0,"result":["呵呵，"],"sn":"377606255981491445410"}
+呵呵，1 你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6405709329106941367","err_msg":"success.","err_no":0,"result":["最帅了，知道最帅的，"],"sn":"218274082471491445426"}
+最帅了，知道最帅的，1 my lord. 我家主人，汪大少爷最帅Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6405709677050644393","err_msg":"success.","err_no":0,"result":["呵呵，我是最大的，"],"sn":"918084654011491445507"}
+呵呵，我是最大的，1 你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6405709780093284285","err_msg":"success.","err_no":0,"result":["我是不是最帅的，我是不是最帅的，"],"sn":"868861885431491445531"}
+我是不是最帅的，我是不是最帅的，array(4) {
+  ["api_key"]=>
+  string(32) "tW42h6YN-90aTObg4spBBZ7JdgY94sPH"
+  ["api_secret"]=>
+  string(32) "3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA"
+  ["image_file1"]=>
+  object(CURLFile)#2 (3) {
+    ["name"]=>
+    string(54) "/var/www/html/workspace/test/controller/currentImg.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+  ["image_file2"]=>
+  object(CURLFile)#3 (3) {
+    ["name"]=>
+    string(62) "/var/www/html/workspace/test/controller/faceClass/img/wy_1.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+}
+postREQUEST: https://api-cn.faceplusplus.com/facepp/v3/compare?api_key=tW42h6YN-90aTObg4spBBZ7JdgY94sPH&api_secret=3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA&image_file1%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FcurrentImg.jpg&image_file1%5Bmime%5D=&image_file1%5Bpostname%5D=&image_file2%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FfaceClass%2Fimg%2Fwy_1.jpg&image_file2%5Bmime%5D=&image_file2%5Bpostname%5D=
+postRETURN: {"error_message":"CONCURRENCY_LIMIT_EXCEEDED"}
+
+1 看不清你的人脸，能让我看清楚么？Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6405710500905472794","err_msg":"success.","err_no":0,"result":["我是不是坏了，我是最帅的，"],"sn":"801227266931491445698"}
+我是不是坏了，我是最帅的，1 my lord. 我家主人，汪大少爷最帅Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6405710625481073378","err_msg":"success.","err_no":0,"result":["我是不是最帅的，"],"sn":"429421483571491445727"}
+我是不是最帅的，array(4) {
+  ["api_key"]=>
+  string(32) "tW42h6YN-90aTObg4spBBZ7JdgY94sPH"
+  ["api_secret"]=>
+  string(32) "3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA"
+  ["image_file1"]=>
+  object(CURLFile)#2 (3) {
+    ["name"]=>
+    string(54) "/var/www/html/workspace/test/controller/currentImg.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+  ["image_file2"]=>
+  object(CURLFile)#3 (3) {
+    ["name"]=>
+    string(62) "/var/www/html/workspace/test/controller/faceClass/img/wy_1.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+}
+postREQUEST: https://api-cn.faceplusplus.com/facepp/v3/compare?api_key=tW42h6YN-90aTObg4spBBZ7JdgY94sPH&api_secret=3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA&image_file1%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FcurrentImg.jpg&image_file1%5Bmime%5D=&image_file1%5Bpostname%5D=&image_file2%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FfaceClass%2Fimg%2Fwy_1.jpg&image_file2%5Bmime%5D=&image_file2%5Bpostname%5D=
+postRETURN: {"faces1": [{"face_rectangle": {"width": 309, "top": 152, "left": 113, "height": 309}, "face_token": "8ff5893673c87af41f419e64453c90f4"}], "faces2": [{"face_rectangle": {"width": 332, "top": 680, "left": 166, "height": 332}, "face_token": "4bd3fd4d08ed797f8d875aa3cbd8a5c0"}], "time_used": 897, "thresholds": {"1e-3": 65.3, "1e-5": 76.5, "1e-4": 71.8}, "confidence": 88.704, "image_id2": "kaP3w0z6z8phLPxkDQdyXg==", "image_id1": "hnnp9Y59OHkmJM1gk4S7OQ==", "request_id": "1491445731,c7594035-67e9-4f83-91e0-aa86d7a7e633"}
+1 是的，您就是世界上最帅的人，我的主人！Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6408855353948982193","err_msg":"success.","err_no":0,"result":["要说话，玻璃，"],"sn":"967294174561492177917"}
+要说话，玻璃，1 你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6408855448695446011","err_msg":"success.","err_no":0,"result":["，谁最帅，，"],"sn":"500667069881492177939"}
+，谁最帅，，1 my lord. 我家主人，汪大少爷最帅Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6408856710489551856","err_msg":"success.","err_no":0,"result":["h，深圳率，"],"sn":"53045047291492178232"}
+h，深圳率，1 你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6408857170998625527","err_msg":"success.","err_no":0,"result":["随着率计算，"],"sn":"298665178061492178340"}
+随着率计算，1 你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6408857295366730590","err_msg":"success.","err_no":0,"result":["谁最帅，谁最帅，"],"sn":"490294805371492178369"}
+谁最帅，谁最帅，1 my lord. 我家主人，汪大少爷最帅Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6408857956795295215","err_msg":"success.","err_no":0,"result":["谁最帅，喵，"],"sn":"263602181171492178523"}
+谁最帅，喵，1 my lord. 我家主人，汪大少爷最帅Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6408858016836092048","err_msg":"success.","err_no":0,"result":["没有说，谁谁，"],"sn":"289509802361492178536"}
+没有说，谁谁，1 你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6408860752207227716","err_msg":"success.","err_no":0,"result":["，，"],"sn":"233226604131492179174"}
+，，1 你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6408861160221194203","err_msg":"success.","err_no":0,"result":["谁在，"],"sn":"437656812551492179269"}
+谁在，1 你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6408861207344102359","err_msg":"success.","err_no":0,"result":["魔镜魔镜谁最帅，"],"sn":"71554822291492179279"}
+魔镜魔镜谁最帅，1 my lord. 我家主人，汪大少爷最帅Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6408870382142183638","err_msg":"success.","err_no":0,"result":["熊，，那，"],"sn":"239545244091492181416"}
+熊，，那，1Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6408870424992590972","err_msg":"success.","err_no":0,"result":["，学生，"],"sn":"187182961371492181426"}
+，学生，1PHP Parse error:  syntax error, unexpected ']', expecting '(' in /var/www/html/workspace/test/controller/audio2text.php on line 61
+PHP Parse error:  syntax error, unexpected ']', expecting '(' in /var/www/html/workspace/test/controller/audio2text.php on line 61
+PHP Parse error:  syntax error, unexpected ']', expecting '(' in /var/www/html/workspace/test/controller/audio2text.php on line 61
+PHP Parse error:  syntax error, unexpected ']', expecting '(' in /var/www/html/workspace/test/controller/audio2text.php on line 61
+Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6408872525260523624","err_msg":"success.","err_no":0,"result":["，学生，"],"sn":"842579077951492181914"}
+，学生，24.ef77b21a9d30fe1cc5258106ac77a38d.2592000.1494773911.282335-84901381Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6408873371545547765","err_msg":"success.","err_no":0,"result":["魔镜魔镜谁最帅，"],"sn":"505787622961492182112"}
+魔镜魔镜谁最帅，24.26612cdaf11955e76f040b8c19bef650.2592000.1494774109.282335-84901381Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6408877962789646678","err_msg":"success.","err_no":0,"result":["没谁在，"],"sn":"664264578411492183181"}
+没谁在，24.e22dadb64f6b8690b5bf03299fb7c83b.2592000.1494775178.282335-84901381Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6408878401119455098","err_msg":"success.","err_no":0,"result":["，我舅妈家谁在，就下载，"],"sn":"849444238451492183283"}
+，我舅妈家谁在，就下载，1  你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6408878580392664359","err_msg":"success.","err_no":0,"result":["毛巾毛巾随便说，"],"sn":"266833297461492183324"}
+毛巾毛巾随便说，1  你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6408878692248198248","err_msg":"success.","err_no":0,"result":["魔镜魔镜谁最帅，，"],"sn":"191116071121492183351"}
+魔镜魔镜谁最帅，，1  my lord. 我家主人，汪大少爷最帅Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6408878980666199414","err_msg":"success.","err_no":0,"result":["我是不是最帅的人，"],"sn":"938839023401492183417"}
+我是不是最帅的人，array(4) {
+  ["api_key"]=>
+  string(32) "tW42h6YN-90aTObg4spBBZ7JdgY94sPH"
+  ["api_secret"]=>
+  string(32) "3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA"
+  ["image_file1"]=>
+  object(CURLFile)#2 (3) {
+    ["name"]=>
+    string(54) "/var/www/html/workspace/test/controller/currentImg.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+  ["image_file2"]=>
+  object(CURLFile)#3 (3) {
+    ["name"]=>
+    string(62) "/var/www/html/workspace/test/controller/faceClass/img/wy_1.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+}
+postREQUEST: https://api-cn.faceplusplus.com/facepp/v3/compare?api_key=tW42h6YN-90aTObg4spBBZ7JdgY94sPH&api_secret=3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA&image_file1%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FcurrentImg.jpg&image_file1%5Bmime%5D=&image_file1%5Bpostname%5D=&image_file2%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FfaceClass%2Fimg%2Fwy_1.jpg&image_file2%5Bmime%5D=&image_file2%5Bpostname%5D=
+postRETURN: {"faces1": [{"face_rectangle": {"width": 267, "top": 117, "left": 125, "height": 267}, "face_token": "d5697b528d3d35e20b2e098f223e8eb4"}], "faces2": [{"face_rectangle": {"width": 332, "top": 680, "left": 166, "height": 332}, "face_token": "64acc9c5443d17a406a5c4b44da30d5a"}], "time_used": 490, "thresholds": {"1e-3": 65.3, "1e-5": 76.5, "1e-4": 71.8}, "confidence": 88.743, "image_id2": "kaP3w0z6z8phLPxkDQdyXg==", "image_id1": "iPuoEmMe+vetPhakdgOWnw==", "request_id": "1492183421,51e78215-7826-43c7-b8cf-1078a8e6ffc7"}
+1  是的，您就是世界上最帅的人，我的主人！Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6408879155894708934","err_msg":"success.","err_no":0,"result":["我是不是最帅的人，"],"sn":"15296298331492183458"}
+我是不是最帅的人，array(4) {
+  ["api_key"]=>
+  string(32) "tW42h6YN-90aTObg4spBBZ7JdgY94sPH"
+  ["api_secret"]=>
+  string(32) "3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA"
+  ["image_file1"]=>
+  object(CURLFile)#2 (3) {
+    ["name"]=>
+    string(54) "/var/www/html/workspace/test/controller/currentImg.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+  ["image_file2"]=>
+  object(CURLFile)#3 (3) {
+    ["name"]=>
+    string(62) "/var/www/html/workspace/test/controller/faceClass/img/wy_1.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+}
+postREQUEST: https://api-cn.faceplusplus.com/facepp/v3/compare?api_key=tW42h6YN-90aTObg4spBBZ7JdgY94sPH&api_secret=3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA&image_file1%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FcurrentImg.jpg&image_file1%5Bmime%5D=&image_file1%5Bpostname%5D=&image_file2%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FfaceClass%2Fimg%2Fwy_1.jpg&image_file2%5Bmime%5D=&image_file2%5Bpostname%5D=
+postRETURN: {"faces1": [{"face_rectangle": {"width": 258, "top": 89, "left": 207, "height": 258}, "face_token": "4ab25c5870c97cdd20097df1f3232186"}], "faces2": [{"face_rectangle": {"width": 332, "top": 680, "left": 166, "height": 332}, "face_token": "d19d282a435b89cc0992c74599fbc384"}], "time_used": 511, "thresholds": {"1e-3": 65.3, "1e-5": 76.5, "1e-4": 71.8}, "confidence": 7.924, "image_id2": "kaP3w0z6z8phLPxkDQdyXg==", "image_id1": "QNoUBwO+HKm0Fx77yA094Q==", "request_id": "1492183461,8cd44810-8818-43f4-95ab-e8da288e84ef"}
+1  你不是我家主人，我不认识你，你是谁呀？Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6408879358736557089","err_msg":"success.","err_no":0,"result":["，"],"sn":"404406934871492183506"}
+，1  你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6408879465059620150","err_msg":"success.","err_no":0,"result":["我说的，，"],"sn":"75125386191492183530"}
+我说的，，1  你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6408879581931273361","err_msg":"success.","err_no":0,"result":["谁是最帅的，"],"sn":"269177177301492183558"}
+谁是最帅的，1  my lord. 我家主人，汪大少爷最帅Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+overrun!!! (at least 339.097 ms long)
+audio2text begin 
+{"err_msg":"recognition error.","err_no":3301,"sn":"157254651071492245540"}
+audio2text errorRecording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6409147343043706087","err_msg":"success.","err_no":0,"result":["，"],"sn":"250199001701492245900"}
+，1  你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+Resolving timed out after 5510 milliseconds{"err_msg":"json param token error.","err_no":3300,"sn":"604542556401492245938"}
+audio2text errorRecording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6409147952951725378","err_msg":"success.","err_no":0,"result":["，"],"sn":"524722218351492246043"}
+，1  你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"err_msg":"recognition error.","err_no":3301,"sn":"925898890571492246162"}
+audio2text errorRecording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6409148807746746803","err_msg":"success.","err_no":0,"result":["，，"],"sn":"709569324521492246241"}
+，，1  你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6409152393961686747","err_msg":"success.","err_no":0,"result":["谁最漂亮，最漂亮最漂亮是谁，"],"sn":"477427856301492247076"}
+谁最漂亮，最漂亮最漂亮是谁，1   我家主人的女人，汪大少爷的老婆婆双儿姑娘最帅Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6409154640260824136","err_msg":"success.","err_no":0,"result":["，"],"sn":"816539528141492247599"}
+，1  你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6409154678089071341","err_msg":"success.","err_no":0,"result":["，，"],"sn":"83973800461492247608"}
+，，1  你说什么？没有听懂，能不能再说一次呐。Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+Resolving timed out after 5510 milliseconds{"err_msg":"json param token error.","err_no":3300,"sn":"901717447101492248538"}
+audio2text errorRecording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6409158780685930509","err_msg":"success.","err_no":0,"result":["我是不是最漂亮的，漂亮，"],"sn":"879962425171492248564"}
+我是不是最漂亮的，漂亮，array(4) {
+  ["api_key"]=>
+  string(32) "tW42h6YN-90aTObg4spBBZ7JdgY94sPH"
+  ["api_secret"]=>
+  string(32) "3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA"
+  ["face_token1"]=>
+  string(32) "87609fe2dd40332b191b025cc6a02995"
+  ["image_file2"]=>
+  object(CURLFile)#2 (3) {
+    ["name"]=>
+    string(54) "/var/www/html/workspace/test/controller/currentImg.jpg"
+    ["mime"]=>
+    string(0) ""
+    ["postname"]=>
+    string(0) ""
+  }
+}
+postREQUEST: https://api-cn.faceplusplus.com/facepp/v3/compare?api_key=tW42h6YN-90aTObg4spBBZ7JdgY94sPH&api_secret=3sRh1CwbvdqVfnFZrVTzc2_Y4WA2NZsA&face_token1=87609fe2dd40332b191b025cc6a02995&image_file2%5Bname%5D=%2Fvar%2Fwww%2Fhtml%2Fworkspace%2Ftest%2Fcontroller%2FcurrentImg.jpg&image_file2%5Bmime%5D=&image_file2%5Bpostname%5D=
+postRETURN: {"image_id2": "VrpX73P4AWEXtn/Fv+9w0A==", "faces2": [{"face_rectangle": {"width": 451, "top": 114, "left": 56, "height": 451}, "face_token": "11178009b905eea483c336b2a5a4b7c3"}], "request_id": "1492248568,fb67ffa5-162a-4278-aeb9-ba1470131c1f", "time_used": 432, "thresholds": {"1e-3": 65.3, "1e-5": 76.5, "1e-4": 71.8}, "confidence": 24.302}
+1  你不是我家主人，我不认识你，你是谁呀？Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6409158960046662479","err_msg":"success.","err_no":0,"result":["没见过的不是最漂亮的，"],"sn":"347084522741492248605"}
+没见过的不是最漂亮的，1   我家主人的女人，汪大少爷的老婆双儿姑娘最漂亮Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6409159127641539472","err_msg":"success.","err_no":0,"result":["我听不进谁最帅，"],"sn":"305546998301492248644"}
+我听不进谁最帅，1  my lord. 我家主人，汪大少爷最帅Recording WAVE '/var/www/html/workspace/test/media/test.wav' : Signed 16 bit Little Endian, Rate 16000 Hz, Mono
+audio2text begin 
+{"corpus_no":"6410356254556614430","err_msg":"success.","err_no":0,"result":["可以，对，"],"sn":"5372695471492527372"}
+可以，对，1  你说什么？没有听懂，能不能再说一次呐。
