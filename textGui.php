@@ -15,8 +15,9 @@ curl_close($ch);
 //��ӡ��õ����
 //print_r($response);
 $output_array = json_decode($response,true);
+//var_dump($output_array);
 
 $res = ["msg"=>$output_array["msg"],"code"=>"succ"];
 //echo $_GET['data'];
-echo json_encode($res);
+echo urldecode(json_encode($res));
 ?>

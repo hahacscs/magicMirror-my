@@ -29,7 +29,7 @@
   </div>
   <div id = "second">
 	   <div class="textGui">文字交互</div>
-   		<audio autoplay src="http://tsn.baidu.com/text2audio?tex=呀&lan=zh&per=4&cuid=myBaidu_workSpace&ctp=1&tok=24.f1cb1b2c918de7213660e6c7c8a12350.2592000.1491922264.282335-8490138">
+   		<audio autoplay src="http://tsn.baidu.com/text2audio?tex=您好呀&lan=zh&per=4&cuid=myBaidu_workSpace&ctp=1&tok=24.d10b4d3a5341e52d7f920779d102f9f0.2592000.1494774638.282335-8490138">
 			</audio>
   </div>
   <div id = "bottom">
