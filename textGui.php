@@ -1,6 +1,6 @@
 <?php
 
-//初始化
+//瑙ｅ喅璺ㄨ秺闂
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, "http://cscshaha.imwork.net/textGui.php");
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -12,7 +12,7 @@ if(curl_errno($ch))
 }
 curl_close($ch);
 
-//打印获得的数据
+//瑙ｅ喅璺ㄨ秺闂
 //print_r($response);
 $output_array = json_decode($response,true);
 
